@@ -1,0 +1,17 @@
+{% comment %} {% load static %}
+
+<div class="sidebar-module">
+    <h4>Archives</h4>
+    <ol class="list-unstyled">
+        {% for post in posts %}
+            <li>
+                <a href="{% url 'blog:post_detail' post.id %}">
+                    <span class="post-title">{{ post.title }}</span>
+                    <span class="post-date">{{ post.published_date }}</span>
+                </a>
+            </li>
+        {% empty %}
+            <li>No posts found.</li>
+        {% endfor %}
+    </ol>
+</div> {% endcomment %}
