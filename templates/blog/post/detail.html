@@ -1,39 +1,58 @@
 {% extends "blog/base.html" %}
+{% load static %}
+{% load blog_tags %}
 {% block title %}{{ post.title }}{% endblock %}
 {% block content %}
-<h1>{{ post.title }}</h1>
-<p class="date">
-Published {{ post.publish }} by {{ post.author }}
-</p>
-{{ post.body|linebreaks }}
-<p>
-<a href="{% url "blog:post_share" post.id %}">
-Share this post
-</a>
-</p>
-<h2>Similar posts</h2>
-{% for post in similar_posts %}
-<p>
-<a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
-</p>
-{% empty %}
-There are no similar posts yet.
-{% endfor %}
-{% with comments.count as total_comments %}
-<h2>
-{{ total_comments }} comment{{ total_comments|pluralize }}
-</h2>
-{% endwith %}
-{% for comment in comments %}
-<div class="comment">
-<p class="info">
-Comment {{ forloop.counter }} by {{ comment.name }}
-{{ comment.created }}
-</p>
-{{ comment.body|linebreaks }}
+<div class="container mt-5">
+    <div class="row">
+      <a
+      class="btn btn-primary"
+      href="{% url 'blog:post_list' %}"
+      >Back</a
+    >
+        <div>
+            <h1 class="display-4">{{ post.title }}</h1>
+            <p class="text-muted">
+                Published {{ post.publish|date:"F j, Y" }} by {{ post.author }}
+            </p>
+            <div class="content mt-4">
+                {{ post.body|markdown }}
+            </div>
+            <div class="mt-4">
+                <a class="btn btn-primary" href="{% url 'blog:post_share' post.id %}">
+                    Share this post
+                </a>
+            </div>
+            <hr class="my-4">
+            <h2>Similar posts</h2>
+            <div class="list-group">
+                {% for post in similar_posts %}
+                <a class="list-group-item list-group-item-action" href="{{ post.get_absolute_url }}">
+                    {{ post.title }}
+                </a>
+                {% empty %}
+                <p class="text-muted">There are no similar posts yet.</p>
+                {% endfor %}
+            </div>
+            <hr class="my-4">
+            {% with comments.count as total_comments %}
+            <h2>
+                {{ total_comments }} comment{{ total_comments|pluralize }}
+            </h2>
+            {% endwith %}
+            {% for comment in comments %}
+            <div class="card my-3">
+                <div class="card-body">
+                    <h5 class="card-title">Comment {{ forloop.counter }} by {{ comment.name }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ comment.created }}</h6>
+                    <p class="card-text">{{ comment.body|linebreaks }}</p>
+                </div>
+            </div>
+            {% empty %}
+            <p>There are no comments yet.</p>
+            {% endfor %}
+            {% include "blog/post/includes/comment_form.html" %}
+        </div>
+    </div>
 </div>
-{% empty %}
-<p>There are no comments yet.</p>
-{% endfor %}
-{% include "blog/post/includes/comment_form.html" %}
 {% endblock %}
