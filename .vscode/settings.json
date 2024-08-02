@@ -1,4 +1,15 @@
 {
     "html.suggest.html5": true,
-    "html.format.indentInnerHtml": true
+    "html.format.indentInnerHtml": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 7788,
+            "driver": "PostgreSQL",
+            "name": "blog_db",
+            "database": "blog",
+            "username": "blog"
+        }
+    ]
 }

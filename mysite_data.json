@@ -1,0 +1,1586 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-06-28T06:42:23.219Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Post object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-06-28T06:54:36.730Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Post object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-06-28T07:21:09.091Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Post object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-06-28T11:48:48.233Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Post object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-06-28T11:49:10.047Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Post object (2)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-07-08T11:15:07.089Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Post object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-07-08T11:15:13.584Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Post object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-07-08T11:15:36.537Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Post object (3)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-07-08T11:15:43.205Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Post object (4)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-07-09T06:32:50.919Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Post object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-07-09T06:45:40.728Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-07-17T10:42:05.921Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-07-26T11:49:16.341Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Post object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-07-26T11:49:16.345Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Post object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-07-26T11:49:16.349Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Post object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-07-26T11:49:16.352Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Post object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-07-26T11:49:16.356Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Post object (5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-07-26T11:49:46.585Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Post object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-07-30T04:02:39.580Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comment object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-07-30T05:02:18.802Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Post object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-07-30T05:17:24.272Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Post object (7)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-07-30T05:32:59.308Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Post object (7)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-07-30T09:20:42.644Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Post object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-07-30T09:25:43.641Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Post object (6)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-07-30T10:45:56.935Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Post object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-07-30T10:46:16.851Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Post object (10)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-07-30T12:25:09.901Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Post object (7)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-07-30T12:25:44.291Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Post object (8)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-07-30T12:26:05.655Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Doom",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-07-30T12:26:05.659Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "DoomGuy",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-07-30T12:26:05.664Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "QnA",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-07-30T12:26:05.667Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Wiki",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-07-30T12:26:15.904Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "shooter",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-08-01T06:39:23.259Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Post object (11)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-08-01T06:39:42.653Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Post object (11)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-08-01T06:45:12.518Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Post object (11)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-08-01T07:02:15.655Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Post object (8)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-08-01T07:04:05.697Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Post object (8)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-08-01T07:04:51.399Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Post object (8)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-08-01T07:05:43.202Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Post object (8)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-08-01T07:11:54.322Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Post object (8)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-08-01T07:15:31.763Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Post object (8)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-08-01T07:36:23.713Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Post object (12)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-08-01T07:38:41.872Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Post object (12)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-08-01T10:01:16.631Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Post object (12)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-08-01T10:06:30.961Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Post object (8)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-08-01T11:34:09.276Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Post object (13)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2024-08-01T11:51:37.639Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "duodiablo.uz",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2024-08-02T05:49:16.765Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2024-08-02T05:51:29.817Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Post object (7)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2024-08-02T05:52:15.197Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Post object (7)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$V4aRybxOFQB3Cv4LmOjsJt$NHC6rw9XhDcZ3b7TgcbciLH7ZWtorh9n3WeOJPNZMrw=",
+    "last_login": "2024-07-08T10:48:40.809Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "yomonjon4132@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-06-28T06:09:10.473Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$gXcLDPJftIcO8sL4mORd4T$OYwbtqfcQ1cjzNuDM+XC19G8XtLqtFC8pJzJYEF4JFo=",
+    "last_login": "2024-07-26T11:36:55.587Z",
+    "is_superuser": true,
+    "username": "admin1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-07-17T10:41:28.937Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "a5q13t8qa4bkxv2czdwnmr3c9hv6zqiu",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQBf-FsyGFwgIevfcbCAuLVA0kpT0Z_9026UGvM_Pem_mwrcVvnRY_J3Zlgl1-GYb4pHqI9Aj13nhsdV1m5EfCT9v51BK9bmf7d1BCL_taOaUxQM5DHlJylJEcINCIBnWOYIAsaWWkFWDNzkYZQeo0RieC1ZZ9vgBGN_s:1sN4nr:nq7yX_6KwL-HQnDEFXi33rbvfi_kD_3TZvQ5kHigcCQ",
+    "expire_date": "2024-07-12T06:09:47.642Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m30610vjx3p4yv9vlw9bw1drv5yueaip",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMLQ9duu83kBkYpGogKe3K-O_apAvd3nPOfYmA21rC1nkJcxIXocXpdyOMD647SHestyZjq-syk9wVedAup5b4eT3cv4OCvXxrC85aAq0gm2yHbIA1GAfORxoJiWyyZvBwRqWZDfiBE5EZdVRjjozi_QHDdje-:1sXJFn:fVkL_AMHDyxPgo4wKgHhoMcFgtMfizoElIlDrFyjLHs",
+    "expire_date": "2024-08-09T11:36:55.591Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tr7llm49oz79oi8w19sfahzi3a2sjah9",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMLQ9duu83kBkYpGogKe3K-O_apAvd3nPOfYmA21rC1nkJcxIXocXpdyOMD647SHestyZjq-syk9wVedAup5b4eT3cv4OCvXxrC85aAq0gm2yHbIA1GAfORxoJiWyyZvBwRqWZDfiBE5EZdVRjjozi_QHDdje-:1sU26n:Byjkd0Y4pjyf6tcGyyxONRmgOWAJS6K1excoexGWDw0",
+    "expire_date": "2024-07-31T10:42:05.933Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vjd4wfot6sk0hvqcbudx6wp79hk1rdvd",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQBf-FsyGFwgIevfcbCAuLVA0kpT0Z_9026UGvM_Pem_mwrcVvnRY_J3Zlgl1-GYb4pHqI9Aj13nhsdV1m5EfCT9v51BK9bmf7d1BCL_taOaUxQM5DHlJylJEcINCIBnWOYIAsaWWkFWDNzkYZQeo0RieC1ZZ9vgBGN_s:1sQlvE:XPmd0T_nm89e5T5ftJvWI-ztN3J95HX6X51t9tx5iiU",
+    "expire_date": "2024-07-22T10:48:40.813Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "doom",
+    "slug": "doom"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "games",
+    "slug": "games"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "test1",
+    "slug": "test1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "test2",
+    "slug": "test2"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "doomguy",
+    "slug": "doomguy_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 11,
+  "fields": {
+    "name": "qna",
+    "slug": "qna_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 12,
+  "fields": {
+    "name": "wiki",
+    "slug": "wiki_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 13,
+  "fields": {
+    "name": "ghostoftsushima",
+    "slug": "ghostoftsushima"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 11,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 17,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 18,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 19,
+  "fields": {
+    "tag": 12,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 20,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 22,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 13
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "test",
+    "slug": "test",
+    "author": 1,
+    "body": "test body\r\ndasd\r\ndsaddasada\r\nDsadadasd",
+    "publish": "2024-07-26T11:49:18Z",
+    "created": "2024-07-26T11:49:46.580Z",
+    "updated": "2024-07-30T09:25:43.637Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Questions about Doom Slayer",
+    "slug": "questions-about-doom-slayer",
+    "author": 1,
+    "body": "<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Doom Slayer Information</title>\r\n    <style>\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            line-height: 1.6;\r\n            margin: 0;\r\n            padding: 0;\r\n            background-color: #f4f4f4;\r\n            color: #333;\r\n        }\r\n        .container {\r\n            width: 80%;\r\n            margin: 20px auto;\r\n            background: #fff;\r\n            padding: 20px;\r\n            border-radius: 8px;\r\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\r\n        }\r\n        h1 {\r\n            text-align: center;\r\n            color: #444;\r\n        }\r\n        h2 {\r\n            color: #555;\r\n            border-bottom: 2px solid #444;\r\n            padding-bottom: 5px;\r\n        }\r\n        p {\r\n            margin: 10px 0;\r\n        }\r\n        .highlight {\r\n            background-color: #e0e0e0;\r\n            padding: 10px;\r\n            border-left: 5px solid #444;\r\n            margin-bottom: 20px;\r\n        }\r\n        .note {\r\n            color: #555;\r\n            font-style: italic;\r\n        }\r\n    </style>\r\n</head>\r\n<body>\r\n        <h1>Doom Slayer: Information and Theories</h1>\r\n        \r\n        <h2>Is Doom Slayer related to BJ?</h2>\r\n        <p>B.J. Blazkowicz is Keen’s grandfather, and Keen is Doom Guy’s father or grandfather. According to Tom Hall, Doom Guy is the grandson of Commander Keen. The website for Doom RPG does state that the player in Doom RPG is the same character from Doom, Doom II, and Doom 3.</p>\r\n\r\n        <h2>Is Doomguy the Slayer?</h2>\r\n        <p>The Doom Slayer is the protagonist and playable character of Doom, Doom II: Hell on Earth, Final Doom, Doom 64, Doom (2016), Quake Champions, Quake III Arena, and Doom Eternal (and possibly Doom 3).</p>\r\n\r\n        <h2>Can the Doom Slayer die?</h2>\r\n        <p class=\"highlight\">[Fan theory] Doom Slayer can be killed, but he can resurrect himself infinitely. When the demons dropped a temple on Doom Slayer, they had a chance to kill him but didn’t. When the Doom Slayer is killed, time itself is reversed to a few minutes before that fight, and Doom Slayer is resurrected with the memory of his death.</p>\r\n\r\n        <h2>What does the mark of the Doom Slayer mean?</h2>\r\n        <p>The mark of the Doom Slayer serves as a warning to all of Hell.</p>\r\n\r\n        <h2>Who can beat Doomguy?</h2>\r\n        <p class=\"note\">1. Can’t Beat: Kratos (God Of War) — This stems from his journey for vengeance and his ability to kill any god in his way. Kratos has killed many gods in his lifetime and continues his mission until completed. Doomguy is still only a mortal, even though he slaughters like a god.</p>\r\n\r\n        <h2>Is it Doomguy or Doom Slayer?</h2>\r\n        <p>Doomguy, also referred to as the Doom Marine and Doom Slayer in later installments of the franchise, is a fictional character and the protagonist in the Doom video game franchise created by id Software, and its sequels and spin-off media.</p>\r\n\r\n        <h2>Are Doomguy and Doom Slayer the same person?</h2>\r\n        <p>The codex entries and cutscenes in DOOM Eternal bridge the rebooted series (DOOM 2016 and DOOM Eternal) to the original series and confirm that Doomguy, aka Doom Marine, is definitely the same person as the Doom Slayer.</p>\r\n\r\n        <h2>Are Doomguy and Isabelle friends?</h2>\r\n        <p>Isabelle, the adorable pooch from Animal Crossing, and the Doom protagonist have come together to show that friendship can transcend games. In July 2019, a Twitter user posted fanart of the two together, with Doomguy teaching Isabelle how to fire the Super Shotgun.</p>\r\n\r\n        <h2>How powerful is Doom Slayer?</h2>\r\n        <p>The Doom Slayer has infinite strength, as his Praetor Suit absorbs Argent Energy, which greatly enhances Doomguy’s physical strength. He has been absorbing Argent Energy for eons, giving him seemingly limitless strength.</p>\r\n\r\n        <h2>Is Doomguy immortal?</h2>\r\n        <p>In this case, there’s no immortality for Doomguy other than the fact that he doesn’t age at the same rate during an FTL trip and returns to Earth a few hundred years later because of it.</p>\r\n\r\n        <h2>Is the Doom Slayer a God?</h2>\r\n        <p>No, the Doom Slayer is not a god. He is something worse than a god; he is revenge. This betrayal caused the already damned Doom Slayer to dedicate his eternity to destroying Hell itself. He is a self-made engine of revenge, punishing all of Hell for its wickedness.</p>\r\n\r\n        <h2>Is Doomguy a God?</h2>\r\n        <p>No, the Doom Slayer is not a god.</p>\r\n</body>",
+    "publish": "2024-07-30T04:52:59Z",
+    "created": "2024-07-30T05:02:18.791Z",
+    "updated": "2024-08-02T05:52:15.193Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Development of Doom",
+    "slug": "development-of-doom",
+    "author": 1,
+    "body": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><div class=\"shortdescription nomobile noexcerpt noprint searchaux\" style=\"display:none\">1993 video game creation</div>\r\n<p>\r\n<i><a href=\"https://en.wikipedia.org/w/index.php?title=Doom_(1993_video_game)\" title=\"Doom (1993 video game)\">Doom</a></i>, a <a href=\"https://en.wikipedia.org/w/index.php?title=First-person_shooter\" title=\"First-person shooter\">first-person shooter</a> game by <a href=\"https://en.wikipedia.org/w/index.php?title=Id_Software\" title=\"Id Software\">id Software</a>, was released in December 1993 and is considered one of the most significant and influential video games in history.<sup id=\"cite_ref-Influential1_1-0\" class=\"reference\"><a href=\"#cite_note-Influential1-1\">[1]</a></sup><sup id=\"cite_ref-Influential2_2-0\" class=\"reference\"><a href=\"#cite_note-Influential2-2\">[2]</a></sup><sup id=\"cite_ref-Influential3_3-0\" class=\"reference\"><a href=\"#cite_note-Influential3-3\">[3]</a></sup>  Development began in November 1992, with programmers <a href=\"https://en.wikipedia.org/w/index.php?title=John_Carmack\" title=\"John Carmack\">John Carmack</a> and <a href=\"https://en.wikipedia.org/w/index.php?title=John_Romero\" title=\"John Romero\">John Romero</a>, artists <a href=\"https://en.wikipedia.org/w/index.php?title=Adrian_Carmack\" title=\"Adrian Carmack\">Adrian Carmack</a> and <a href=\"https://en.wikipedia.org/w/index.php?title=Kevin_Cloud\" title=\"Kevin Cloud\">Kevin Cloud</a>, and designer <a href=\"https://en.wikipedia.org/w/index.php?title=Tom_Hall\" title=\"Tom Hall\">Tom Hall</a>. Late in development, Hall was replaced by <a href=\"https://en.wikipedia.org/w/index.php?title=Sandy_Petersen\" title=\"Sandy Petersen\">Sandy Petersen</a> and programmer <a href=\"https://en.wikipedia.org/w/index.php?title=Dave_Taylor_(game_programmer)\" title=\"Dave Taylor (game programmer)\">Dave Taylor</a> joined. The music and sound effects were created by <a href=\"https://en.wikipedia.org/w/index.php?title=Robert_Prince_(video_game_composer)\" class=\"mw-redirect\" title=\"Robert Prince (video game composer)\">Bobby Prince</a>.\r\n</p><p>The <i>Doom</i> concept was proposed in late 1992, after the release of <i><a href=\"https://en.wikipedia.org/w/index.php?title=Wolfenstein_3D\" title=\"Wolfenstein 3D\">Wolfenstein 3D</a></i> and its sequel <i>Spear of Destiny</i>. John Carmack was working on an improved 3D <a href=\"https://en.wikipedia.org/w/index.php?title=Game_engine\" title=\"Game engine\">game engine</a> from those games, and the team wanted to have their next game take advantage of his designs. Several ideas were proposed, including a new game in their <i><a href=\"https://en.wikipedia.org/w/index.php?title=Commander_Keen\" title=\"Commander Keen\">Commander Keen</a></i> series, but John proposed a game about using technology to fight demons inspired by the <i><a href=\"https://en.wikipedia.org/w/index.php?title=Dungeons_%26_Dragons\" title=\"Dungeons &amp; Dragons\">Dungeons &amp; Dragons</a></i> campaigns the team played. The initial months of development were spent building prototypes, while Hall created the <i>Doom Bible</i>, a <a href=\"https://en.wikipedia.org/w/index.php?title=Design_document\" class=\"mw-redirect\" title=\"Design document\">design document</a> for his vision of the game and its story; after id released a grandiose press release touting features that the team had not yet begun working on, the <i>Doom Bible</i> was rejected in favor of a plotless game with no design document at all.\r\n</p><p>Over the next six months, Hall designed levels based on real military bases, Romero built features, and artists Adrian Carmack and Cloud created <a href=\"https://en.wikipedia.org/w/index.php?title=Texture_mapping\" title=\"Texture mapping\">textures</a> and demons based on clay models they built. Hall's level designs, however, were deemed uninteresting and Romero began designing his own levels; Hall, increasingly frustrated with his limited influence, was fired in July. He was replaced by Petersen in September, and the team worked increasingly long hours until the game was completed in December 1993. <i>Doom</i> was self-published by id on December 10, 1993, and immediately downloaded by thousands of players.\r\n</p>\r\n<meta property=\"mw:PageProp/toc\">\r\n<div class=\"mw-heading mw-heading2\"><h2 id=\"Design\">Design</h2><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"https://en.wikipedia.org/w/index.php?title=Development_of_Doom&amp;action=edit&amp;section=1\" title=\"Edit section: Design\"><span>edit</span></a><span class=\"mw-editsection-bracket\">]</span></span></div>\r\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"https://en.wikipedia.org/wiki/File:John_Carmack_E3_2006.jpg\" class=\"mw-file-description\"><img alt=\"Black and white photo of the head and shoulders of a man wearing glasses\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/John_Carmack_E3_2006.jpg/220px-John_Carmack_E3_2006.jpg\" decoding=\"async\" width=\"220\" height=\"220\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/John_Carmack_E3_2006.jpg/330px-John_Carmack_E3_2006.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a6/John_Carmack_E3_2006.jpg/440px-John_Carmack_E3_2006.jpg 2x\" data-file-width=\"682\" data-file-height=\"681\"></a><figcaption><a href=\"https://en.wikipedia.org/w/index.php?title=John_Carmack\" title=\"John Carmack\">John Carmack</a> in 2006</figcaption></figure>\r\n<div class=\"mw-heading mw-heading3\"><h3 id=\"Concept\">Concept</h3><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"https://en.wikipedia.org/w/index.php?title=Development_of_Doom&amp;action=edit&amp;section=2\" title=\"Edit section: Concept\"><span>edit</span></a><span class=\"mw-editsection-bracket\">]</span></span></div>\r\n<p>In May 1992, <a href=\"https://en.wikipedia.org/w/index.php?title=Id_Software\" title=\"Id Software\">id Software</a> released <i><a href=\"https://en.wikipedia.org/w/index.php?title=Wolfenstein_3D\" title=\"Wolfenstein 3D\">Wolfenstein 3D</a>.</i> It is often referred to as the \"grandfather\" of <a href=\"https://en.wikipedia.org/w/index.php?title=First-person_shooter\" title=\"First-person shooter\">first-person shooters</a>,<sup id=\"cite_ref-CGWHallofFame_4-0\" class=\"reference\"><a href=\"#cite_note-CGWHallofFame-4\">[4]</a></sup><sup id=\"cite_ref-VGB_5-0\" class=\"reference\"><a href=\"#cite_note-VGB-5\">[5]</a></sup> setting expectations for fast-paced action and new technology, and greatly increased the genre's popularity.<sup id=\"cite_ref-CGWHallofFame_4-1\" class=\"reference\"><a href=\"#cite_note-CGWHallofFame-4\">[4]</a></sup><sup id=\"cite_ref-AGGreview_6-0\" class=\"reference\"><a href=\"#cite_note-AGGreview-6\">[6]</a></sup><sup id=\"cite_ref-IGN100_7-0\" class=\"reference\"><a href=\"#cite_note-IGN100-7\">[7]</a></sup><sup id=\"cite_ref-WIREDretro_8-0\" class=\"reference\"><a href=\"#cite_note-WIREDretro-8\">[8]</a></sup> Immediately following its release, most of the team began work on a set of new <i>Wolfenstein</i> episodes, <i>Spear of Destiny</i>. As the episodes used the same <a href=\"https://en.wikipedia.org/w/index.php?title=Game_engine\" title=\"Game engine\">game engine</a> as the original game, id co-founder and lead programmer <a href=\"https://en.wikipedia.org/w/index.php?title=John_Carmack\" title=\"John Carmack\">John Carmack</a> instead focused on technology research for the company's next game, just as he had experimented with creating a 3D game engine prior to the development of <i>Wolfenstein 3D</i>. Between May and <i>Spear of Destiny</i><span class=\"nowrap\" style=\"padding-left:0.1em;\">'</span>s release in September 1992, he created several experimental engines, including one for a racing game, before working on an enhanced version of the <i>Wolfenstein</i> engine to be licensed to <a href=\"https://en.wikipedia.org/w/index.php?title=Raven_Software\" title=\"Raven Software\">Raven Software</a> for their game <i><a href=\"https://en.wikipedia.org/w/index.php?title=ShadowCaster\" title=\"ShadowCaster\">ShadowCaster</a></i>. For this engine, he developed several enhancements to the <i>Wolfenstein</i> engine, including sloped floors, <a href=\"https://en.wikipedia.org/w/index.php?title=Texture_mapping\" title=\"Texture mapping\">textures</a> on the floors and ceilings in addition to the walls, and fading visibility over a distance. The resulting engine was much slower than the <i>Wolfenstein</i> one, but was deemed acceptable for an adventure game like <i>ShadowCaster</i>.<sup id=\"cite_ref-MOD118121_9-0\" class=\"reference\"><a href=\"#cite_note-MOD118121-9\">[9]</a></sup>\r\n</p><p>Following the release of <i>Spear of Destiny</i> and the completion of the <i>ShadowCaster</i> engine, id Software discussed what their next game would be. They wanted to create another 3D game using Carmack's new engine as a starting point, but were largely tired of <i>Wolfenstein</i>. Lead designer <a href=\"https://en.wikipedia.org/w/index.php?title=Tom_Hall\" title=\"Tom Hall\">Tom Hall</a> was especially weary of it, and pushed for the team to make another game in the <i><a href=\"https://en.wikipedia.org/w/index.php?title=Commander_Keen\" title=\"Commander Keen\">Commander Keen</a></i> series; the team had created seven episodes in the series in 1990–91 as their first games, but the planned third set of episodes had been dropped in favor of <i>Wolfenstein 3D</i>. While Carmack was initially interested in the idea, the rest of the team was not. They collectively felt that the platforming gameplay of the series was a poor fit for Carmack's fast-paced 3D engines, and especially after the success of <i>Wolfenstein</i> were interested in pursuing more games of that type. Additionally, the other two co-founders of id were not interested in creating another <i>Keen</i> game: <a href=\"https://en.wikipedia.org/w/index.php?title=John_Romero\" title=\"John Romero\">John Romero</a>, the designer of <i>Wolfenstein</i>, was not interested in doing another \"cutesy\" game, and lead artist Adrian Carmack preferred to create art in a darker style than the <i>Keen</i> games. John Carmack soon lost interest in <i>Keen</i> idea as well, instead coming up with his own concept: a game about using technology to fight demons, inspired by the <i><a href=\"https://en.wikipedia.org/w/index.php?title=Dungeons_%26_Dragons\" title=\"Dungeons &amp; Dragons\">Dungeons &amp; Dragons</a></i> campaigns the team played, combining the styles of <i><a href=\"https://en.wikipedia.org/w/index.php?title=Evil_Dead_II\" title=\"Evil Dead II\">Evil Dead II</a></i> and <i><a href=\"https://en.wikipedia.org/w/index.php?title=Aliens_(film)\" title=\"Aliens (film)\">Aliens</a></i>.<sup id=\"cite_ref-MOD118121_9-1\" class=\"reference\"><a href=\"#cite_note-MOD118121-9\">[9]</a></sup><sup id=\"cite_ref-GDC2011_10-0\" class=\"reference\"><a href=\"#cite_note-GDC2011-10\">[10]</a></sup> The concept originally had a working title of \"Green and Pissed\", which was also the name of a concept Hall had proposed prior to <i>Wolfenstein</i>, but Carmack soon named the proposed game after a line in the film <i><a href=\"https://en.wikipedia.org/w/index.php?title=The_Color_of_Money\" title=\"The Color of Money\">The Color of Money</a></i>: \"'What's in the case?' / 'In here? Doom.'\"<sup id=\"cite_ref-MOD118121_9-2\" class=\"reference\"><a href=\"#cite_note-MOD118121-9\">[9]</a></sup><sup id=\"cite_ref-MonsterId_11-0\" class=\"reference\"><a href=\"#cite_note-MonsterId-11\">[11]</a></sup>\r\n</p><p>The team agreed to pursue the <i>Doom</i> concept, and development began in November 1992.<sup id=\"cite_ref-GDC2011_10-1\" class=\"reference\"><a href=\"#cite_note-GDC2011-10\">[10]</a></sup> The initial development team was composed of five people: programmers John Carmack and John Romero, artists <a href=\"https://en.wikipedia.org/w/index.php?title=Adrian_Carmack\" title=\"Adrian Carmack\">Adrian Carmack</a> and <a href=\"https://en.wikipedia.org/w/index.php?title=Kevin_Cloud\" title=\"Kevin Cloud\">Kevin Cloud</a>, and designer Tom Hall.<sup id=\"cite_ref-IGNvideo_12-0\" class=\"reference\"><a href=\"#cite_note-IGNvideo-12\">[12]</a></sup> They moved offices to a dark office building, which they named \"Suite 666\", and drew inspiration from the noises coming from the dentist's office next door. They also cut ties with <a href=\"https://en.wikipedia.org/w/index.php?title=3D_Realms\" title=\"3D Realms\">Apogee Software</a>, who had given them the initial advance money for creating their first game, <i><a href=\"https://en.wikipedia.org/w/index.php?title=Commander_Keen_in_Invasion_of_the_Vorticons\" title=\"Commander Keen in Invasion of the Vorticons\">Commander Keen in Invasion of the Vorticons</a></i>, and through which they had published the shareware versions of their games to date. While they had a good personal relationship with owner <a href=\"https://en.wikipedia.org/w/index.php?title=Scott_Miller_(entrepreneur)\" title=\"Scott Miller (entrepreneur)\">Scott Miller</a>, they felt that they were outgrowing the publisher. Cloud, who was involved in id's business dealings, pushed for id to take over shareware publishing duties themselves after investigating and finding that Apogee was unable to reliably handle the volume of customers buying id's games through Apogee. He convinced the others that the increased sales revenue would make up for the problems of handling their own publishing. The two companies parted amicably, and <i>Doom</i> was set to be self-published.<sup id=\"cite_ref-MOD122123_13-0\" class=\"reference\"><a href=\"#cite_note-MOD122123-13\">[13]</a></sup>\r\n</p>\r\n<div class=\"mw-heading mw-heading3\"><h3 id=\"Development\">Development</h3><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"https://en.wikipedia.org/w/index.php?title=Development_of_Doom&amp;action=edit&amp;section=3\" title=\"Edit section: Development\"><span>edit</span></a><span class=\"mw-editsection-bracket\">]</span></span></div>\r\n<figure class=\"mw-default-size mw-halign-right\" typeof=\"mw:File/Thumb\"><a href=\"https://en.wikipedia.org/wiki/File:John_Romero_-_Jason_Scott_interview_(6951215353)_(cropped).jpg\" class=\"mw-file-description\"><img alt=\"Face of a smiling man with long black hair and glasses\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/0/02/John_Romero_-_Jason_Scott_interview_%286951215353%29_%28cropped%29.jpg/170px-John_Romero_-_Jason_Scott_interview_%286951215353%29_%28cropped%29.jpg\" decoding=\"async\" width=\"170\" height=\"222\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/0/02/John_Romero_-_Jason_Scott_interview_%286951215353%29_%28cropped%29.jpg/255px-John_Romero_-_Jason_Scott_interview_%286951215353%29_%28cropped%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/02/John_Romero_-_Jason_Scott_interview_%286951215353%29_%28cropped%29.jpg/340px-John_Romero_-_Jason_Scott_interview_%286951215353%29_%28cropped%29.jpg 2x\" data-file-width=\"607\" data-file-height=\"792\"></a><figcaption><a href=\"https://en.wikipedia.org/w/index.php?title=John_Romero\" title=\"John Romero\">John Romero</a> in 2012</figcaption></figure>\r\n<p>Early in development, rifts in the team began to appear. Hall, who despite having wanted to develop a different game remained the lead designer and creative director for the company, did not want <i>Doom</i> to have the same lack of plot as <i>Wolfenstein 3D</i>. At the end of November he delivered a <a href=\"https://en.wikipedia.org/w/index.php?title=Software_design_description\" title=\"Software design description\">design document</a>, which he named the <i>Doom Bible</i>, that described the plot, backstory, and design goals for the project.<sup id=\"cite_ref-GDC2011_10-2\" class=\"reference\"><a href=\"#cite_note-GDC2011-10\">[10]</a></sup> His design was a science fiction horror concept wherein scientists on the Moon open a portal from which aliens emerge. Over a series of levels the player discovers that the aliens are demons; Hell also steadily infects the level design as the atmosphere becomes darker and more terrifying.<sup id=\"cite_ref-MOD124131_14-0\" class=\"reference\"><a href=\"#cite_note-MOD124131-14\">[14]</a></sup> While Romero initially liked the idea, John Carmack not only disliked it but dismissed the idea of having a story at all: \"Story in a game is like story in a porn movie; it's expected to be there, but it's not that important.\" Rather than a deep story, John Carmack wanted to focus on the technological innovations, dropping the levels and episodes of <i>Wolfenstein</i> in favor of a fast, continuous world. Hall disliked the idea, but Romero sided with Carmack. Although John Carmack was the lead programmer rather than a designer, he was becoming seen in the company as the most important source of ideas; the company considered taking out <a href=\"https://en.wikipedia.org/w/index.php?title=Key_person_insurance\" title=\"Key person insurance\">key person insurance</a> on Carmack but no one else.<sup id=\"cite_ref-MOD124131_14-1\" class=\"reference\"><a href=\"#cite_note-MOD124131-14\">[14]</a></sup>\r\n</p><p>Hall spent the next few weeks reworking the <i>Doom Bible</i> to work with Carmack's technological ideas, while the rest of the team planned how they could implement them.<sup id=\"cite_ref-GDC2011_10-3\" class=\"reference\"><a href=\"#cite_note-GDC2011-10\">[10]</a></sup> His adjusted vision for the plot had the player character assigned to a large military base on an alien planet, Tei Tenga. At the start of the game, as the first of four <a href=\"https://en.wikipedia.org/w/index.php?title=Player_character\" title=\"Player character\">player character</a> soldiers, named Buddy, played cards with the others, scientists on the base accidentally open a portal to Hell, through which demons poured through, killing the other soldiers. He envisioned a six episode structure with a storyline involving traveling to Hell and back through the gates which the demons used, and the destruction of the planet, for which the players would be sent to jail.<sup id=\"cite_ref-MOD124131_14-2\" class=\"reference\"><a href=\"#cite_note-MOD124131-14\">[14]</a></sup><sup id=\"cite_ref-DSSS249250_15-0\" class=\"reference\"><a href=\"#cite_note-DSSS249250-15\">[15]</a></sup> Buddy was named after Hall's character in a <i>Dungeons &amp; Dragons</i> campaign run by John Carmack that had featured a demonic invasion.<sup id=\"cite_ref-MOD124131_14-3\" class=\"reference\"><a href=\"#cite_note-MOD124131-14\">[14]</a></sup> Hall was forced to rework the <i>Doom Bible</i> again in December, however, after John Carmack and the rest of the team had decided that they were unable to create a single, seamless world with the hardware limitations of the time, which contradicted much of the new document.<sup id=\"cite_ref-GDC2011_10-4\" class=\"reference\"><a href=\"#cite_note-GDC2011-10\">[10]</a></sup>\r\n</p><p>At the start of 1993, id put out a press release by Hall, touting Buddy's story about fighting off demons while \"knee-deep in the dead\", trying to eliminate the demons and find out what caused them to appear. The press release proclaimed the new game features that John Carmack had created, as well as other features, including multiplayer gaming features, that had not yet been started on by the team or even designed.<sup id=\"cite_ref-MOD124131_14-4\" class=\"reference\"><a href=\"#cite_note-MOD124131-14\">[14]</a></sup> The company told <i><a href=\"https://en.wikipedia.org/w/index.php?title=Computer_Gaming_World\" title=\"Computer Gaming World\">Computer Gaming World</a></i> that <i>Doom</i> would be \"<i>Wolfenstein</i> times a million!\"<sup id=\"cite_ref-CGW199301_16-0\" class=\"reference\"><a href=\"#cite_note-CGW199301-16\">[16]</a></sup> Early versions were built to match the <i>Doom Bible</i>; a \"pre-alpha\" version of the first level included the other characters at a table and movable rolling chairs based on ones at the id office.<sup id=\"cite_ref-MCV_17-0\" class=\"reference\"><a href=\"#cite_note-MCV-17\">[17]</a></sup> Initial versions also retained \"<a href=\"https://en.wikipedia.org/w/index.php?title=Arcade_genre\" class=\"mw-redirect\" title=\"Arcade genre\">arcade</a>\" elements present in <i>Wolfenstein 3D</i>, like <a href=\"https://en.wikipedia.org/w/index.php?title=Score_(video_games)\" class=\"mw-redirect\" title=\"Score (video games)\">score</a> points and score items, but those were removed early in development as they felt unrealistic and not in keeping with the tone.<sup id=\"cite_ref-IGNvideo_12-1\" class=\"reference\"><a href=\"#cite_note-IGNvideo-12\">[12]</a></sup> Other elements, such as a complex user interface, an inventory system, a secondary shield protection, and <a href=\"https://en.wikipedia.org/w/index.php?title=Life_(gaming)\" class=\"mw-redirect\" title=\"Life (gaming)\">lives</a> were modified and slowly removed over the course of development.<sup id=\"cite_ref-GDC2011_10-5\" class=\"reference\"><a href=\"#cite_note-GDC2011-10\">[10]</a></sup><sup id=\"cite_ref-DoomHorizon_18-0\" class=\"reference\"><a href=\"#cite_note-DoomHorizon-18\">[18]</a></sup>\r\n</p>\r\n<figure class=\"mw-default-size mw-halign-right\" typeof=\"mw:File/Thumb\"><a href=\"https://en.wikipedia.org/wiki/File:Sandy_Petersen_in_May_2004.jpg\" class=\"mw-file-description\"><img src=\"//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sandy_Petersen_in_May_2004.jpg/170px-Sandy_Petersen_in_May_2004.jpg\" decoding=\"async\" width=\"170\" height=\"233\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sandy_Petersen_in_May_2004.jpg/255px-Sandy_Petersen_in_May_2004.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sandy_Petersen_in_May_2004.jpg/340px-Sandy_Petersen_in_May_2004.jpg 2x\" data-file-width=\"736\" data-file-height=\"1008\"></a><figcaption><a href=\"https://en.wikipedia.org/w/index.php?title=Sandy_Petersen\" title=\"Sandy Petersen\">Sandy Petersen</a> in 2004</figcaption></figure>\r\n<p>Soon, however, the <i>Doom Bible</i> as a whole was rejected: Romero wanted a game even \"more brutal and fast\" than <i>Wolfenstein</i>, which did not leave room for the character-driven plot Hall had created.<sup id=\"cite_ref-MOD124131_14-5\" class=\"reference\"><a href=\"#cite_note-MOD124131-14\">[14]</a></sup> Additionally, the team did not feel that they needed a design document at all, as they had not created one for prior games; the <i>Doom Bible</i> was discarded altogether.<sup id=\"cite_ref-MOD124131_14-6\" class=\"reference\"><a href=\"#cite_note-MOD124131-14\">[14]</a></sup> Several ideas were retained, including starting off in a military base, as well as some locations, items, and monsters, but the story was dropped and most of the design was removed as the team felt it emphasized realism over entertaining gameplay. Some elements, such as weapons, a hub system of maps, and monorails later appeared in later <i>Doom</i> or id games.<sup id=\"cite_ref-DSSS249250_15-1\" class=\"reference\"><a href=\"#cite_note-DSSS249250-15\">[15]</a></sup> Work continued, and a demo was shown to <i><a href=\"https://en.wikipedia.org/w/index.php?title=Computer_Gaming_World\" title=\"Computer Gaming World\">Computer Gaming World</a></i> in early 1993, who raved about it. John Carmack and Romero, however, disliked Hall's military base-inspired level design. Romero especially felt that while John Carmack had originally asked for realistic levels as they would make the engine run quickly, that Hall's level designs were uninspiring.<sup id=\"cite_ref-MOD124131_14-7\" class=\"reference\"><a href=\"#cite_note-MOD124131-14\">[14]</a></sup> He felt that the boxy, flat levels were too similar to <i>Wolfenstein</i><span class=\"nowrap\" style=\"padding-left:0.1em;\">'</span>s design, and did not show off everything the engine could do.<sup id=\"cite_ref-MattChat_19-0\" class=\"reference\"><a href=\"#cite_note-MattChat-19\">[19]</a></sup> He began to create his own, more abstract levels, beginning with a curving staircase into a large open area in what became the second level of the final game, which the rest of the team felt was much better.<sup id=\"cite_ref-MOD124131_14-8\" class=\"reference\"><a href=\"#cite_note-MOD124131-14\">[14]</a></sup><sup id=\"cite_ref-MattChat_19-1\" class=\"reference\"><a href=\"#cite_note-MattChat-19\">[19]</a></sup>\r\n</p><p>Hall was upset with the reception to his designs and how little impact he was having as the lead designer; Romero has since claimed that Hall was also still uninterested in the <i>Doom</i> concept at all.<sup id=\"cite_ref-MOD124131_14-9\" class=\"reference\"><a href=\"#cite_note-MOD124131-14\">[14]</a></sup><sup id=\"cite_ref-MCV_17-1\" class=\"reference\"><a href=\"#cite_note-MCV-17\">[17]</a></sup> Hall was also upset with how much he was having to fight with John Carmack in order to get what he saw as obvious gameplay improvements, such as flying enemies.<sup id=\"cite_ref-GDC2011_10-6\" class=\"reference\"><a href=\"#cite_note-GDC2011-10\">[10]</a></sup> The other developers, however, felt that Hall was not in sync with the team's vision for the game and was becoming a problem.<sup id=\"cite_ref-DoomguyCh12_20-0\" class=\"reference\"><a href=\"#cite_note-DoomguyCh12-20\">[20]</a></sup> He began to spend less time working in the office, and in response John Carmack proposed that he be fired from id. Romero initially resisted, as it would mean that Hall would not receive any proceeds, but in July he and the other founders of id fired Hall, who went to work for Apogee.<sup id=\"cite_ref-MOD124131_14-10\" class=\"reference\"><a href=\"#cite_note-MOD124131-14\">[14]</a></sup> Hall was replaced in September, ten weeks before <i>Doom</i> was released, by game designer <a href=\"https://en.wikipedia.org/w/index.php?title=Sandy_Petersen\" title=\"Sandy Petersen\">Sandy Petersen</a>, despite misgivings over his relatively high age of 37 compared to the other early-20s employees and his religious background.<sup id=\"cite_ref-Petersen_21-0\" class=\"reference\"><a href=\"#cite_note-Petersen-21\">[21]</a></sup><sup id=\"cite_ref-MOD132147_22-0\" class=\"reference\"><a href=\"#cite_note-MOD132147-22\">[22]</a></sup> Petersen later recalled that John Carmack and Romero wanted to hire other artists instead, but Cloud and Adrian disagreed, saying that a designer was required to help build a cohesive gameplay experience. They relented and Petersen was hired.<sup id=\"cite_ref-PetersenTalk_23-0\" class=\"reference\"><a href=\"#cite_note-PetersenTalk-23\">[23]</a></sup> The team also added a third programmer, <a href=\"https://en.wikipedia.org/w/index.php?title=Dave_Taylor_(game_programmer)\" title=\"Dave Taylor (game programmer)\">Dave Taylor</a>.<sup id=\"cite_ref-RomeroGDC_24-0\" class=\"reference\"><a href=\"#cite_note-RomeroGDC-24\">[24]</a></sup> Romero directed Petersen to revise Hall's levels with as many changes as he saw fit in order to meet his guidelines for what made for interesting",
+    "publish": "2024-07-30T09:18:51Z",
+    "created": "2024-07-30T09:20:42.636Z",
+    "updated": "2024-08-01T10:06:30.955Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "test1",
+    "slug": "test1",
+    "author": 1,
+    "body": "asd",
+    "publish": "2024-07-30T10:45:46Z",
+    "created": "2024-07-30T10:45:56.931Z",
+    "updated": "2024-07-30T10:45:56.931Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "test2",
+    "slug": "test2",
+    "author": 1,
+    "body": "asdasd",
+    "publish": "2024-07-30T10:45:58Z",
+    "created": "2024-07-30T10:46:16.846Z",
+    "updated": "2024-07-30T10:46:16.846Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "title": "markdown_test",
+    "slug": "markdown_test",
+    "author": 1,
+    "body": "This is a post formatted with markdown\r\n--------------------------------------\r\n*This is emphasized* and **this is more emphasized**.\r\nHere is a list:\r\n* One\r\n* Two\r\n* Three\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
+    "publish": "2024-08-01T06:38:27Z",
+    "created": "2024-08-01T06:39:23.252Z",
+    "updated": "2024-08-01T06:45:12.515Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 13,
+  "fields": {
+    "title": "asdadasdasdads",
+    "slug": "asdadasdasdads",
+    "author": 1,
+    "body": "sdadadad",
+    "publish": "2024-08-01T11:33:56Z",
+    "created": "2024-08-01T11:34:09.272Z",
+    "updated": "2024-08-01T11:34:09.272Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 6,
+    "name": "comment 1",
+    "email": "yomonjon4132@gmail.com",
+    "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "created": "2024-07-30T04:02:39.579Z",
+    "updated": "2024-07-30T04:02:39.579Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 6,
+    "name": "Test1",
+    "email": "yomonjon4132@gmail.com",
+    "body": "test1 body !",
+    "created": "2024-07-30T04:35:25.151Z",
+    "updated": "2024-07-30T04:35:25.151Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 6,
+    "name": "Test1",
+    "email": "yomonjon4132@gmail.com",
+    "body": "test1 body !",
+    "created": "2024-07-30T04:52:00.985Z",
+    "updated": "2024-07-30T04:52:00.985Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 7,
+    "name": "Omon",
+    "email": "yomonjon4132@gmail.com",
+    "body": "Damn, didn'n know that BJ was related to Doomguy :\\",
+    "created": "2024-07-30T05:03:36.443Z",
+    "updated": "2024-07-30T05:03:36.443Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 6,
+  "fields": {
+    "post": 8,
+    "name": "Omon",
+    "email": "yomonjon4132@gmail.com",
+    "body": "Cool",
+    "created": "2024-07-30T09:22:28.295Z",
+    "updated": "2024-07-30T09:22:28.295Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 7,
+  "fields": {
+    "post": 8,
+    "name": "Omon",
+    "email": "yomonjon4132@gmail.com",
+    "body": "asdasd",
+    "created": "2024-07-30T10:56:17.832Z",
+    "updated": "2024-07-30T10:56:17.832Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 8,
+  "fields": {
+    "post": 7,
+    "name": "Omon",
+    "email": "yomonjon4132@gmail.com",
+    "body": "kzjlvkjzlkvjlzkjvlkzjlkvjzlkjvlkz",
+    "created": "2024-07-30T11:20:03.139Z",
+    "updated": "2024-07-30T11:20:03.139Z",
+    "active": true
+  }
+}
+]

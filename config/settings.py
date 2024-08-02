@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import os
+from decouple import config
+import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -40,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.sitemaps',
     "django.contrib.staticfiles",
+    "django.contrib.postgres",
     "taggit",
     "apps.blog.apps.BlogConfig",
 ]
@@ -80,10 +84,20 @@ WSGI_APPLICATION = "config.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+env = environ.Env()
+env_file = os.path.join(os.path.dirname(__file__), '../.env')
+environ.Env.read_env(env_file)  # Reads the .env file
+
+print("DATABASE_NAME:", env('DATABASE_NAME'))
+
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': env('DATABASE_NAME'),
+        'USER': env('DATABASE_USER'),
+        'PASSWORD': env('DATABASE_PASSWORD'),
+        'HOST': env('DATABASE_HOST'),
+        'PORT': env('DATABASE_PORT'),
     }
 }
 
